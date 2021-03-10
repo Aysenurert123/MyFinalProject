@@ -27,6 +27,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getall")]
+
         public IActionResult GetAll()
         {
             //Swagger
